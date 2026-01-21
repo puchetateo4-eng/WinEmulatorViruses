@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador Fake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu">
+  <div class="window">
+    <h3>Simulador Visual - Selecciona un Sistema</h3>
+
+    <select id="osSelect">
+      <option value="xp">Windows XP</option>
+      <option value="me">Windows Me</option>
+      <option value="w31">Windows 3.1</option>
+    </select>
+
+    <br><br>
+
+    <h3>Selecciona un "Virus" visual</h3>
+
+    <select id="virusSelect">
+      <option value="matrix">Matrix Fake</option>
+      <option value="bsodFake">Pantalla Azul Fake</option>
+      <option value="randomWindows">Ventanas Locas</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="startSim()">Iniciar Simulación</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

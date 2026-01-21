@@ -1,0 +1,30 @@
+body {
+  background: #1e1e1e;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-7/cur674.cur'), auto;
+}
+
+.window {
+  display: inline-block;
+  padding: 20px;
+  background: #2e2e2e;
+  border: 2px solid #555;
+  border-radius: 10px;
+}
+
+.fakeXP { background: #245edb; }
+.fakeME { background: #4e9a06; }
+.fake31 { background: #00008b; }
+
+.matrix {
+  color: #00ff00;
+  font-family: monospace;
+  animation: blink 0.1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0.7; }
+}
